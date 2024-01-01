@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* navigation */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+    
+}
+
+nav li a {
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color: #222;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* logo ? */
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* form */ 
+
+.normal-search {
+    text-align: center;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #DDD;
+    border-style: solid;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar:hover, .search-bar:active {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 30px 5px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    padding: 10px 15px;
+    color: #222;
+}
+
+.button:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    border: 1px solid #1A75FF;
+}
+
+/* advanced search */
+
+#advanced-search-text {
+    color: #D00;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+    margin: 10px 0 20px 30px;
+}
+
+form.advanced-search {
+    display: table;
+    margin: 0 0 0 30px;
+}
+
+form.advanced-search p {
+    font-size: 16px;
+}
+
+form.advanced-search div {
+    display: table-row;
+}
+
+form.advanced-search label, form input {
+    display: table-cell;
+    margin: 10px 0;
+}
+
+form.advanced-search label {
+    width: 200px;
+    padding-right: 5%;
+}
+
+form.advanced-search input[type="text"] {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #CCC;
+    padding: 0 10px;
+}
+
+form.advanced-search input[type="text"]:focus {
+    border: 1px solid #1A75FF;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+form.advanced-search input.blue-button {
+    color: #FFF;
+    background-color: #1A75FF;
+    font-style: bold;
+    border: 0;
+    padding: 10px;
+    width: 150px;
+    float: right;
+}
+
+form.advanced-search .blue-button:hover {
+    box-shadow: 0 0 3px #000;
+}
+
+form.advanced-search input.blue-button:active {
+    background-color: #4080D0;
+}
+
+hr {
+    border-color: #E9E9E9;
+    border-style: solid;
+}
